@@ -1,0 +1,103 @@
+/* Reset default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Page layout */
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* Adjust the styles for the "About Me" section */
+#about .about-content {
+    display: flex;
+    align-items: center;
+}
+
+#about img {
+    max-width: 100px; /* Adjust the image size as needed */
+    margin-right: 20px; /* Add some space between the image and the text */
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add background-color back to the sections and adjust opacity */
+section {
+    padding: 40px 0; /* Reduce spacing between sections */
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.60); /* Adjust the opacity as needed */
+}
+
+/* Alternate background colors for sections */
+section:nth-child(even) {
+    background-color: rgba(247, 247, 247, 0.60); /* Adjust the opacity as needed */
+}
+
+section:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.60); /* Adjust the opacity as needed */
+}
+
+
+section h2 {
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
